@@ -1,0 +1,25 @@
+{
+  "name": "node-sass-template",
+  "version": "0.0.1",
+  "description": "sass development with node.js environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyferiawan/node-sass-template.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "jimmy feriawan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimmyferiawan/node-sass-template/issues"
+  },
+  "homepage": "https://github.com/jimmyferiawan/node-sass-template#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
