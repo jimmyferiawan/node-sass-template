@@ -4,7 +4,11 @@
   "description": "sass development with node.js environment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:sass": "node-sass --watch sass --output-style expanded --recursive sass --output dist/css",
+    "dev:scss": "node-sass --watch scss --output-style expanded --recursive scss --output dist/css",
+    "build:sass": "node-sass --output-style compressed sass/main.sass -o dist/sass && cp dist/sass/main.css dist/css",
+    "build:scss": "node-sass --output-style compressed scss/main.scss -o dist/scss && cp dist/sass/main.css dist/css"
   },
   "repository": {
     "type": "git",
