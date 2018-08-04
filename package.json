@@ -21,5 +21,6 @@
   "homepage": "https://github.com/jimmyferiawan/node-sass-template#readme",
   "devDependencies": {
     "node-sass": "^4.9.2"
-  }
+  },
+  "dependencies": {}
 }
