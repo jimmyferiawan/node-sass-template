@@ -1,0 +1,1 @@
+node-sass --output-style compressed scss/main.scss -o dist/scss && cp dist/sass/main.css dist/css

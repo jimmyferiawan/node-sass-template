@@ -1,0 +1,1 @@
+node-sass --watch sass --output-style expanded --recursive sass --output dist/css
